@@ -19,7 +19,7 @@ pipeline{
 		}
 		stage('Archive Artifacts'){
 			steps{
-				archiveArtifacts artifact : 'report.html'
+				archiveArtifacts artifacts : 'report.html'
 			}
 		}
 	}
