@@ -4,7 +4,7 @@ pipeline{
 		stage('Checkout Code'){
 			steps{
 				git branch : 'main',
-				url : ''
+				url : 'https://github.com/bjnakarmi/AutomationSuite2.git'
 			}
 		}
 		stage('Install Dependencies'){
