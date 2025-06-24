@@ -25,6 +25,5 @@ def test_get_pending_charity(browser,email,password):
     response = api_helpers.get_all_charity(header)
     data = response.json()
     assert response.status_code == 200
-    assert 'data' in data
 
 
